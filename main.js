@@ -20,6 +20,7 @@ function all() {
         if (cantidad.value > 10) {
             cantidad.value = ""
             inputContainer.removeChild(input)
+            alert("the max is 10")
         }
     }
     const bar = document.querySelectorAll(".bar")
